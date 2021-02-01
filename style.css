@@ -1,0 +1,130 @@
+/*video de curso https://youtu.be/OWKXEJN67FE*/
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+
+/* .contact-form{
+    font-size: 25px;
+}
+
+.contact-form__h2{
+    font-size: 2em;
+    color: red;
+   
+} */
+
+/* ******************************************** */
+/* cajas minuto 1:25 */
+/* h2{
+    background-color:#a22;
+    display: inline-block;
+    padding: 20px 20px 20px 5px;
+    margin: 2px;
+    border-radius: 16px;
+    box-shadow: 4px 2px 15px 0px;
+    text-shadow: 4px 2px 7px rgba(24, 23, 23, 0.911);
+    transform: rotate(2deg);
+} */
+
+/* ******************************************** */
+/* 1:55:32​ - Outline */
+
+/* 
+******************************************** 
+            2:05:28​ - Position
+.caja1{
+    background-color: red;
+}
+.caja2{
+    background-color: green;
+    position: relative;
+    top: 100px;
+    z-index: 50;
+    
+}
+.caja3{
+    background-color: blue;
+    position: relative;
+    
+}
+.caja4{
+    background-color: yellow;
+} */
+
+/* ******************************************** 
+
+
+
+        2:23:10​ - Position Absolute
+div{    
+    background: yellow;
+    display: block;
+    position: absolute;
+    
+}
+
+div div{
+    width: 120px;
+    height: 120px;
+}
+.contenedor{
+    
+    position: relative;
+    margin:50px auto;
+    border: 4px solid black;
+    height: 450px;
+    width: 450px;
+}
+.caja1{
+    background-color: brown;
+    
+}
+.caja2{
+    background-color: green;
+    //position:absolute; "position:absolute quita la reservacion del espacio" 
+    right: 0;
+}
+.caja3{
+    background-color: blue;
+    right: 0;
+    bottom: 0;
+}
+.caja4{
+    background-color: red;
+    bottom: 0;
+}
+.caja5{
+    background-color: blanchedalmond;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+*/
+
+/* ********************************************
+            2:39:37​ - Position Fixed
+body{
+    padding-top: 100px;
+}
+.caja-fixed{
+    background: red;
+    position: fixed;
+    opacity: .5;
+    margin: -100px;
+
+} */
+
+div{
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    border: 5px solid orangered;
+    background: yellowgreen; 
+    display: inline-block;
+}
