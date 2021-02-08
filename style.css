@@ -3,7 +3,7 @@
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 100;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 
@@ -120,11 +120,183 @@ body{
 
 } */
 
+/* ********************************************
+        2:55:30​ - Overflow
 div{
-    width: 250px;
-    height: 150px;
-    margin: 20px;
-    border: 5px solid orangered;
+    margin: auto;
+    margin-top: 50px;
+    width: 350px;
+    height: 250px;
+    border: 4px solid orangered;
     background: yellowgreen; 
-    display: inline-block;
+    overflow: auto; permite añadir scroll en algo que este mas grande que el contenedor
+    overflow-y: scroll;
+    overflow-x:hidden;
+} */
+
+/*********************************************3:02:06​ - Float
+ .cont{
+    
+    margin-top: 50px;
+    border:4px solid red;
+    background: grey;
+    padding: 20px;
+    overflow: hidden; lo emplo para que la imagen no se salga del cont 
 }
+
+.cont img{
+   float: right; ubico la imagen flotando donde alado del texto 
+
+  
+} */
+
+/* *********************************************3:10:19​ - Pseudoelementos
+.texto{
+    margin: 20px;
+}
+.texto::first-letter{
+    color: blueviolet;
+    font-size: 2em;
+} */
+
+/* *********************************************3:24:05​ - Pseudoclases
+.caja1 {
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    transition: background 1s, height 1s, width 1s ;
+}
+
+cambia el color cuando el puntero este sobre el elemento 
+.caja1:hover{
+    background: darkslateblue;
+    height: 300px;
+    width: 300px;
+    
+}
+
+cambia cuando se mantiene presionado cuando se suelta, vuelve a la normalidad 
+.caja2{
+    height: 200px;
+    width: 200px;
+    background: red;
+    transition: 1s;
+}
+.caja2:active{
+    background: blue;
+    width: 600px;
+}
+
+.input1{
+    border: none;
+    border-bottom: solid  lightskyblue;
+    height:50px;
+    transition: background 1s, padding 1s, linear 1s, border-bottom 1s, width 1s;
+}
+
+.input1:focus{
+    border: 0;
+    border-bottom:  solid  rgb(49, 154, 219);
+    width: 400px;
+    outline: none;
+    padding: 20px;
+   
+} */
+
+/* ********************************************* 3:52:35​ - Objet Position (encuadre de imagenes) */
+
+ /* ********************************************* 4:18:25​ - Menu Responsive
+.nav__responsive-ul{
+    display: none;
+}
+
+nav{
+    background-color: #1D244A;
+    color:#fff;
+}
+.nav__ul{
+    padding: 12px 0;
+}
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+}
+.nav__li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav__li i{
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.nav__li :hover > a{
+    color:#ccc;
+}
+.nav__li:hover{
+    color:#ccc;
+}
+
+.nav__responsive-button-container{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    margin-top: -37px;
+    z-index: 100;
+}
+.nav__responsive-button{
+    font-size: 37px;
+    float: right;
+    padding: 6px 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .nav__ul{
+        display: none;
+    }
+    .nav__li-conteiner{
+        position: relative;
+        top: -1000px;
+        height: calc(100vh - 49px);
+        background: #1D244A;
+        transition: all 1s;
+        z-index: 1;
+    }
+    
+    .nav__li-conteiner li{
+        display: block;
+        
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav__responsive-ul {
+        display: block; 
+        position: absolute;
+        width: 100%;
+        margin-top: 37px;            
+        height: 27px;   
+    }
+    .nav__responsive-li{
+        padding: 13px 10px;
+        text-align: left;
+        
+    }
+    .nav__responsive-li a{
+        text-decoration: none;
+        text-align: right;
+        padding-left: 5px;
+        color: #fff;
+    }
+    .nav__responsive-li:hover{
+        color:#ccc;
+    }
+    .nav__responsive-li:hover > a{
+        color:#ccc;
+    }
+    .nav__responsive-ul:hover > .nav__li-conteiner{
+        top: 12px;
+    }    
+} */
